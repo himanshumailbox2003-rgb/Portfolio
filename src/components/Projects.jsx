@@ -28,7 +28,7 @@ function Projects() {
         {projects.map((project, index) => (
           <motion.article
             key={project.title}
-            className="group rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 p-5 md:p-6 shadow-sm hover:shadow-soft hover:-translate-y-1 transition-all"
+            className="group rounded-2xl border border-neutral-800 bg-neutral-950 p-5 md:p-6 hover:-translate-y-1 transition-all"
             variants={cardVariants}
             custom={index}
             initial="hidden"
